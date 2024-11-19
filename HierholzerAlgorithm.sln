@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierholzerAlgorithm", "HierholzerAlgorithm\HierholzerAlgorithm.csproj", "{B92ED335-CF2E-413E-9DA1-A4164A04C949}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B92ED335-CF2E-413E-9DA1-A4164A04C949}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92ED335-CF2E-413E-9DA1-A4164A04C949}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92ED335-CF2E-413E-9DA1-A4164A04C949}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92ED335-CF2E-413E-9DA1-A4164A04C949}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F669FCF3-D0F4-463B-ADDE-24B0D6F33910}
+	EndGlobalSection
+EndGlobal
