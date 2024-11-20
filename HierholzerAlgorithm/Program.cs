@@ -121,10 +121,14 @@ internal class Program
     private static void PrintAllCycles(List<List<string>> cycles)
     {
         Console.WriteLine("-----------------");
+        int i = 0;
         foreach (var cycle in cycles)
         {
+            Console.ForegroundColor = (ConsoleColor)(i % 15);
+            i++;
             PrintCycle(cycle);
         }
+        Console.ResetColor();
         Console.WriteLine("-----------------");
     }
     private static void PrintCycle(List<string> cycle)
